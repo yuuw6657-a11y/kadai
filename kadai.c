@@ -62,13 +62,8 @@ int main(void){
         q=0;
     }
     
-    printf("\nあなたの点数は%dです。\n",q);
-
-
-
-
-   
-   
+    printf("あなたの点数は%dです。\n",q);
+    printf("■の数は%dです。\n\n",num);
     return 0;
 
 }  
