@@ -21,13 +21,13 @@ int main(void){
     #endif
 
     int screen[ROWS][COLS] = {0};
-    int a,num, count,p,q = 0;
+    int a,num, count=0,p,q;
     srand((unsigned int)time(NULL));
 
     printf("時間を指定してください（秒）:");
     scanf("%d",&a);
     printf("5から20個の■を表示します。");
-    num=rand()% 15+5;
+    num=rand()% 16+5;
     while (count < num) {
         int r = rand() % ROWS;
         int c = rand() % COLS;
